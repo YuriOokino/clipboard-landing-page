@@ -1,0 +1,203 @@
+body {
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  line-height: 1.5;
+  width: 1440px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+ p {
+   color: hsl(201, 11%, 66%);
+}
+
+footer {
+  background: hsl(201, 11%, 95%);
+  margin-top: 160px;
+  padding-top: 30px;
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+a:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.header {
+  width: 50%;
+  margin: auto;
+}
+
+.logo {
+  margin-top: 170px;
+  margin-bottom: 60px;
+}
+
+.intro {
+  margin: 160px auto 200px auto;
+  width: 50%;
+}
+
+.container-1 {
+  text-align: left;
+  margin-right: 230px;
+}
+
+.container-2 {
+  margin: 250px auto 0 auto;
+  width: 50%;
+}
+
+.container-3 {
+  margin: 80px auto 0 auto;
+  width: 50%;
+}
+
+.features-grid {
+display: grid;
+grid-template-columns: auto auto auto;
+margin: 80px auto 0 auto;
+width: 85%;
+}
+
+.item1, .item2, .item3 {
+  padding: 0 20px;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin-top: 160px;
+  padding: 0 50px;
+}
+
+.container-4 {
+  margin: 160px auto 0 auto;
+  width: 50%;
+}
+
+.link-grid {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+.link5 {
+  margin: 18px -70px auto 280px;
+}
+
+.link5 i {
+  padding: 10px;
+  scale: 1.5;
+  opacity: 70%;
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.attribution a{
+  color: hsl(171, 66%, 44%);
+}
+
+/*buttons*/
+
+.myButton1 {
+	background-color:hsl(171, 66%, 44%);
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	padding:15px 70px;
+	text-decoration:none;
+  margin-top: 25px;
+  box-shadow: 0 5px 20px -4px hsl(171, 66%, 60%);
+  border-bottom-style: solid;
+  border-bottom-color: hsl(171, 66%, 35%);
+  margin-right: 25px;
+  margin-top: 40px;
+}
+
+.myButton1:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	background-color:hsl(233, 100%, 69%);
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	padding:15px 70px;
+	text-decoration:none;
+  margin-top: 25px;
+  box-shadow: 0 5px 20px -4px hsl(201, 11%, 66%);
+  border-bottom-style: solid;
+  border-bottom-color: hsl(233, 100%, 40%);
+}
+
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton1:hover  {
+  color: #ffffff;
+  background-color: hsl(171, 66%, 60%);
+}
+
+.myButton2:hover {
+  color: #ffffff;
+  background-color: hsl(233, 100%, 75%);
+}
+
+/*images*/
+
+.img-computer {
+  float: left;
+  margin-right: 60px;
+  position: relative;
+  left: -30px;
+  top: -105px;
+}
+
+.img-devices {
+  position: relative;
+left: -65px;
+margin-top: 100px;
+}
+
+.link-grid img {
+  width: 50px;
+  padding-top: 18px;
+}
+
+.item2 img {
+  height: 40px;
+}
